@@ -1,0 +1,31 @@
+# Pesquisa de Requisitos: Funcionais vs. Não Funcionais
+
+Este documento apresenta uma explicação prática e direta sobre a diferença entre Requisitos Funcionais e Não Funcionais, utilizando como exemplo um aplicativo de delivery estilo **iFood**.
+
+---
+
+## 1. Requisitos Funcionais (RF)
+**O que são:** Descrevem **o que o sistema deve fazer**, ou seja, as funcionalidades, ações e comportamentos que entregam valor direto para o usuário. Respondem à pergunta: *"O sistema permite que o usuário faça X?"*
+
+### Exemplos Práticos (Estilo iFood):
+* **RF01 - Busca de Restaurantes:** O usuário deve conseguir buscar restaurantes digitando o nome ou filtrando por categoria (ex: Lanches, Pizzas, Japonesa).
+* **RF02 - Carrinho de Compras:** O sistema deve permitir que o usuário adicione, remova e altere a quantidade de itens de um restaurante antes de finalizar o pedido.
+* **RF03 - Pagamento Online:** O usuário deve poder realizar o pagamento do pedido utilizando cartão de crédito, PIX ou carteira digital.
+* **RF04 - Rastreamento de Entrega:** O cliente deve visualizar em tempo real a localização do entregador no mapa após a confirmação do pedido.
+
+---
+
+## 2. Requisitos Não Funcionais (RNF)
+**O que são:** Descrevem **como o sistema realiza suas funções**, focando em padrões de qualidade, desempenho, segurança, usabilidade e restrições técnicas. Respondem à pergunta: *"Quão rápido, seguro ou confiável o sistema é?"*
+
+### Exemplos Práticos (Estilo iFood):
+* **RNF01 - Desempenho (Performance):** A tela inicial de listagem de restaurantes deve carregar em no máximo **2 segundos** em conexões 4G.
+* **RNF02 - Escalabilidade:** O sistema deve suportar até **50.000 usuários simultâneos** durante horários de pico (como o horário de almoço aos domingos) sem queda de serviço.
+* **RNF03 - Segurança:** Todos os dados de pagamento e cartões de crédito dos usuários devem ser criptografados de acordo com os padrões da certificação **PCI-DSS**.
+* **RNF04 - Disponibilidade:** O aplicativo deve manter uma disponibilidade (uptime) de **99,9%** ao longo do mês, evitando quedas inesperadas para os entregadores e restaurantes parceiros.
+
+---
+
+## Resumo Rápido
+* **Funcional:** **O que** o sistema faz (Ex: O app faz o pedido e processa o PIX).
+* **Não Funcional:** **Como** o sistema se comporta (Ex: O PIX deve ser processado em menos de 5 segundos e com segurança criptografada).

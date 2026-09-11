@@ -1,0 +1,18 @@
+# 1. Certifique-se de estar na branch principal e atualizada
+git checkout main
+git pull origin main
+
+# 2. Criar e mudar para a nova branch
+git checkout -b feature/pesquisa-prd
+
+# 3. Criar o arquivo (você pode colar o conteúdo acima nele)
+touch pesquisa-prd.md
+
+# 4. Adicionar o arquivo ao controle de versão
+git add pesquisa-prd.md
+
+# 5. Fazer o commit
+git commit -m "docs: adiciona pesquisa sobre PRD e suas seções principais"
+
+# 6. Subir a branch para o repositório remoto
+git push origin feature/pesquisa-prd

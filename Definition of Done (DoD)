@@ -1,0 +1,14 @@
+# Pesquisa: Definition of Done (DoD)
+
+## O que é Definition of Done?
+A **Definition of Done (DoD)** é um conjunto padronizado de critérios que determina se um item de trabalho foi completamente executado e atende aos padrões de qualidade necessários para ser liberado em produção. Em metodologias ágeis, garante transparência, alinhamento técnico e previne débitos técnicos no projeto.
+
+---
+
+## Checklist de DoD (5 Itens)
+
+- [ ] **1. Code Review Aprovado:** Código revisado e aprovado por pelo menos um membro da equipe via Pull Request.
+- [ ] **2. Testes Automatizados:** Testes unitários/integração escritos e executando sem falhas.
+- [ ] **3. Build & Integração Concluídos:** Código integrado à branch principal sem conflitos e com pipeline de CI/CD aprovado.
+- [ ] **4. Critérios de Aceite Atendidos:** Funcionalidade validada contra as especificações e regras de negócio da história de usuário.
+- [ ] **5. Documentação Atualizada:** Documentação técnica, API e README devidamente atualizados.

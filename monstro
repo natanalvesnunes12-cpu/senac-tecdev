@@ -1,0 +1,17 @@
+O Escopo do Projeto define os limites exatos do que será entregue no software: quais funcionalidades serão desenvolvidas, os requisitos técnicos, as entregas intermediárias e o trabalho necessário para concluir o sistema. Ele determina não só o que entra no projeto, mas também deixa explícito o que está fora.
+
+O Scope Creep (Inchaço de Escopo) ocorre quando novas funcionalidades ou requisitos são adicionados ao projeto sem planejamento, sem ajuste de prazo, sem aumento de orçamento e sem revisão de recursos. Ele é "temido" porque acontece de forma sutil — um pequeno pedido informal do cliente aqui, uma melhoria técnica não combinada ali — até que o prazo estoura e o time se vê sobrecarregado.
+
+Como evitar que o escopo saia do controle:
+
+Processo formal de Controle de Mudanças (Change Control)
+
+Nenhuma alteração entra no projeto "de graça" ou de forma verbal.
+
+Se o cliente ou o time solicitar uma nova funcionalidade, aplique a regra: Para algo entrar, algo precisa sair (trade-off) ou o prazo/orçamento devem ser reajustados. Toda mudança deve passar por uma análise de impacto rápida antes de ser aprovada.
+
+Critérios de Aceite e "Critério de Pronto" (Definition of Done) bem claros
+
+Detalhe exatamente o que cada requisito precisa para ser considerado concluído.
+
+Ter refinamentos contínuos de tarefas impede que desenvolvedores ou stakeholders interpretem o requisito de forma excessivamente abrangente e adicionem detalhes que não eram necessários na etapa atual.
